@@ -6,7 +6,7 @@ perguntas = []
 
 sg.theme('LightBlue1')
 layout = [
-    [sg.Text(' '*47),sg.Image('logo.png')],
+    [sg.Text(' '*47), sg.Image("logo.png")],
     [sg.Text("QUIZ DA TABELA PERIODICA",size=(500,2), justification='center',font=('Arial', 20, 'bold'))],
     [sg.Text(' '*20),sg.Button('Começar',size=(35,3),key='-START-')],
     [sg.Text('')],
@@ -81,9 +81,10 @@ while True:
                 if npergunta+1 > len(quest_list):
                     if n_acertos >= ac_min:
                         sg.popup(f"Parabéns Você acertou {n_acertos} Questões.\n{n_acertos} de {len(quest_list)}",icon='logo_xif_icon.ico',font=("Helvetica", 15, "bold"),title="Parabéns.")
+                        break
                     elif n_acertos < ac_min:
                         sg.popup(f"Você acertou {n_acertos} Questões",icon='logo_xif_icon.ico',font=("Helvetica", 15, "bold"),title="Acertos.")
-                
+                        break
                 layoutpergunta = pergunta(npergunta)
                 window_pergunta = sg.Window(f'Pergunta {npergunta+1}.',layoutpergunta,size=tamjanela)
                 event, values = window_pergunta.read()
