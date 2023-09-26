@@ -1,0 +1,34 @@
+8
+seguir a lista no seguinte padrão
+["Pergunta","alternativa 1","alternativa 2","alternativa 3","alternativa 4","numero correspondente a alternativa certa"],
+Exemplo:
+
+["Qual a capital da frança?", "Paris", "Londres", "Berlim", "Roma", "1"],
+
+
+
+1["Um átomo, cujo número atômico é 10, está classificado na Tabela Periódica como?","metal de transição", "calcogênio", "gás nobre", "metal alcalino", "3"],
+
+2["Qual é a distribuição eletrônica do íon cálcio (Ca²⁺), que perdeu dois elétrons?", "1s² 2s² 2p⁶ 3s² 3p⁶", "1s² 2s² 2p⁶ 3s²" , "1s² 2s² 2p⁶ 3s² 3p⁶ 4s²", "1s² 2s² 2p⁶ 3s² 3p⁶ 4s⁰", "3" ],
+
+3["Qual é a distribuição eletrônica correta para o íon oxigênio (O²⁻), que ganhou dois elétrons?", "1s² 2s² 2p⁴" ,"1s² 2s² 2p⁶", "1s² 2s² 2p³", "1s² 2s² 2p⁵", "1"],
+
+4["Qual é o único gás nobre que não é encontrado em quantidades significativas na atmosfera da Terra?", "Hélio", "Neônio" , "Criptônio", "Radônio" ,"4"],
+
+5["De acordo com o Princípio da Exclusão de Pauli, quantos elétrons podem ocupar uma única orbital atômica?" "5", "3", "2","1", "3"],(se ficar confuso a resposta certa são 2 elétrons)
+
+6["Qual é o símbolo químico do elemento que tem uma distribuição eletrônica de 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰?","Ferro (Fe)", "Cobre (Cu)"," Zinco (Zn)", "Níquel (Ni)" "2"],
+
+7["Quantos elétrons desemparelhados estão presentes em um átomo de Nitrogênio(N)?", "0", "1", "3", "4", "2"],(se ficar confuso a resposta certa é 1 átomo)
+
+8["Qual é o elemento que possui a maior eletronegatividade na tabela periódica?"Hidrogênio(H)", "Oxigênio(O)", "Flúor(F)" "Cloro (Cl)" "3"],
+
+9["Em 1898, a cientista Marie Curie e seu marido Pierre Curie trouxeram ao mundo a descoberta de dois novos elementos químicos, que são:", "Frâncio e Urânio ", "Ródio e Cobre", "Rádio e Polônio", "Sódio e Potássio", "3"],
+
+10["Qual dos seguintes elementos químicos se configura como halogênio?", "Hélio", "Oxigênio", "Hidrogênio", "Cloro",  "4"]
+
+11["O elemento químico mais abundante no universo é também um dos elementos dos quais a água é composta. Qual é esse elemento?", "Hidrogênio", "Ferro", "Hélio", " Oxigênio", "1"]
+
+12["Qual é o elemento que possui maior eletropositividade na tabela periódica?, "Oxigênio", "Frâncio", "Cloro", "Hidrogênio", "2"]
+
+13["O elemento mais abundante na crosta terrestre é:", "Ferro", "Nitrogênio", "Rádio", "oxigênio", "4"]
