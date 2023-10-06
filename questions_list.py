@@ -24,14 +24,17 @@ quest_list =  [
  #12
  ["Qual é o elemento que possui maior\neletropositividade na tabela periódica?", "Oxigênio", "Frâncio", "Cloro", "Hidrogênio", "2"],
  #13
- ["O elemento mais abundante\n na crosta terrestre é:", "Ferro", "Nitrogênio", "Rádio", "oxigênio", "4"]]
+ ["O elemento mais abundante\n na crosta terrestre é:", "Ferro", "Nitrogênio", "Rádio", "oxigênio", "4"]
+ 
+ 
+ ]
 
 
-# print(len(quest_list),"Perguntas")
-# for i in range(len(quest_list)):
-#     if len(quest_list[i]) != 6:
-#         print(f"Pergunta {i} ERRO")
-#     elif len(quest_list[i]) == 6:
-#         print(f"Pergunta {i} Ok")
+print(len(quest_list),"Perguntas")
+for i in range(len(quest_list)):
+    if len(quest_list[i]) != 6:
+        print(f"Pergunta {i} ERRO")
+    elif len(quest_list[i]) == 6:
+        print(f"Pergunta {i} Ok")
 
 
